@@ -1,5 +1,4 @@
-.image-container::before {
+.image-container {
     background-image: url(./adventures-homepage.jpg);
-    background-color: rgba(0, 0, 0, 0.5); 
   }
   
