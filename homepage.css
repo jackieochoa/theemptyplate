@@ -2,52 +2,6 @@
   background-image: url(Homepage.jpg);
 }
 
-.home-section{
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
-}
-
-.home-section tr td {
-  width: 25%;
-  text-align: center;
-}
-
-.home-section tr td div {
-  width: 90%;
-  margin-left: 5%;
-}
-
-.home-links {
-  text-decoration: none;
-  color: black;
-  font-style: normal;
-}
-
-.home-links:hover {
-  text-decoration: underline;
-}
-
-.foodLinks {
-  text-decoration: none;
-  color: black;
-  font-style: normal;
-}
-
-.foodLinks:hover {
-  text-decoration: underline;
-}
-
-.foodLinks table tr td {
-  text-align: center;
-  width: 25%;
-}
-
-.foodLinks table tr td div {
-  width: 90%;
-  display: inline-block; 
-  text-align: left; 
-}
 
 
 
