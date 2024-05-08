@@ -26,7 +26,7 @@
         <td class="header-logo"><a href="../"><img src="../header-footer/logo-FullTheEmptyPlate.png" alt="The Empty Plate Logo" height="75px"></a>
         </td>
         <td class="header-nav"><a class="navLinks" href="../">Home</a></td>
-        <td class="header-nav"><a class="navLinks" href="./">About</a></td>
+        <td class="header-nav"><a class="navLinks" href="#home">About</a></td>
         <td class="header-nav"><a class="navLinks" href="../recipes/">Recipes</a></td>
         <td class="header-nav"><a class="navLinks" href="../adventures/">Adventures</a></td>
       </tr>
@@ -36,7 +36,7 @@
   </header>
 
   <main>
-    <div class="image-container" style="height: 100vh;">
+    <div id="home" class="image-container" style="height: 100vh;">
       <h1>About</h1>
     </div>
   </main>
@@ -113,6 +113,14 @@
       </tr>
     </table>
   </footer>
+
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="jquery.scrolly.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".navLinks").scrolly();
+    });
+  </script>
 
 </body>
 
