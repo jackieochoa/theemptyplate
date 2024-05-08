@@ -29,7 +29,7 @@
         <td class="header-nav"><a class="navLinks" href="../">Home</a></td>
         <td class="header-nav"><a class="navLinks" href="../about">About</a></td>
         <td class="header-nav"><a class="navLinks" href="../recipes/">Recipes</a></td>
-        <td class="header-nav"><a class="navLinks" href="./">Adventures</a></td>
+        <td class="header-nav"><a class="navLinks" href="#home">Adventures</a></td>
       </tr>
     </table>
 
@@ -37,7 +37,7 @@
   </header>
 
   <main>
-    <div class="image-container" style="height: 100vh;">
+    <div id="home" class="image-container" style="height: 100vh;">
       <h1>Adventures</h1>
     </div>
 
@@ -510,7 +510,15 @@
       </tr>
     </table>
   </footer>
-
+<!--JAVASCRIPTS-->
+<script src="jquery-3.7.1.min.js"></script>
+<script src="jquery.scrolly.min.js"></script>
+<script>
+    $(document).ready(function() {
+      $(".navLinks").scrolly();
+    });
+</script>
+  
 </body>
 
 </html>
